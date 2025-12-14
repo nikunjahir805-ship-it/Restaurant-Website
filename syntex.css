@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+}
+
+.navbar {
+    background-image: url(t1.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    box-shadow: 1px 1px 150px rgb(0, 0, 0) inset;
+
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-image: url(12.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+.font {
+    width: 500px;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 2s;
+}
+
+p9 {
+    color: #D3D3D3;
+    font-size: 23px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.copany {
+    display: flex;
+    width: 100%;
+}
+
+p {
+    font-size: 90px;
+    color: white;
+    font-weight: 600;
+}
+
+.welcome {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    color: white;
+    width: 100%;
+
+
+}
+
+.welcome h2 {
+    text-align: center;
+
+    width: 428px;
+    font-size: 45px;
+    color: rgb(204, 0, 0);
+}
+
+.welcome input {
+    background-color: rgb(204, 0, 0);
+    border: 0;
+    outline: 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.welcome input:hover {
+    background-color: white;
+    color: rgb(204, 0, 0);
+}
+
+.more:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    color: #D3D3D3;
+    transition: 0.5s;
+    font-size: 17px;
+    transform: translateY(-5px);
+}
+
+/** second thama **/
+
+.home2 {
+    height: 600px;
+    width: 100%;
+    margin-top: 36px;
+    background-attachment: fixed;
+}
+
+.home2-font {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/** welcom **/
+
+a1 {
+    color: red;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+a2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home2-font p {
+    font-size: 16px;
+    color: rgb(166, 165, 165);
+    text-decoration: none;
+    margin: 5px 0px;
+    width: 870px;
+    margin-bottom: 20px;
+}
+
+p1 {
+    color: black;
+}
+
+/** OUR STORY img **/
+.story-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 {
+    background-image: url(img3.jpg);
+    height: 390px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    transition: 0.5s;
+}
+
+.logo1:hover {
+    transition: 0.5s;
+    box-sizing: border-box;
+    transform: translateY(-5px);
+}
+
+/** back img background-attachment: fixed;**/
+.back-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-img {
+    background-image: url(img2.avif);
+    height: 600px;
+    background-size: cover;
+    width: 80%;
+    margin-top: 2rem;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 250px rgb(0, 0, 0) inset;
+}
+
+.font-img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.font-img a {
+    color: red;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.font-img a9 {
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+/** more three img for manu **/
+.manu-img {
+    height: 414px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.manu-imgs1 {
+    height: 110px;
+    width: 190px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.manu-imgs {
+    background-image: url(romentok2.jpg);
+}
+
+.manu-imgs2 {
+    background-image: url(romentik1.jpg);
+
+}
+
+.manu-imgs3 {
+    background-image: url(romantic_resturent.jpg);
+
+}
+
+.box-img h2 {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.box-img a {
+    color: rgb(119, 119, 119);
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.box-img p {
+    color: rgb(60, 0, 255);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.box-img2 h2 {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.box-img2 a {
+    color: rgb(119, 119, 119);
+    font-weight: 100;
+}
+
+.box-img2 p {
+    color: rgb(60, 0, 255);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.box-img3 h2 {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.box-img3 a {
+    color: rgb(119, 119, 119);
+    font-weight: 100;
+}
+
+.box-img3 p {
+    color: rgb(60, 0, 255);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/** second menu **/
+
+.menu-second {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(212, 195, 173);
+    ;
+}
+
+.second-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Dis {
+    color: red;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#menu {
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.menu-second-img {
+    height: 230px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.second-img1 {
+    background-image: url(dinner.jpg);
+}
+
+.second-img2 {
+    background-image: url(LUNCH2.jpg);
+}
+
+.second-img3 {
+    background-image: url(LUNCH3.jpg);
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: red;
+    padding: 10px;
+    width: 160px;
+    font-size: 20px;
+    border: 0;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.374);
+    color: white;
+
+}
+
+/** information **/
+
+.information {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.information-inside {
+    height: 800px;
+    width: 700px;
+    background-color: rgb(207, 207, 207);
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+}
+
+.inside-1 {
+    color: rgb(188, 3, 3);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.inside-2 {
+    color: black;
+    font-size: 3rem;
+    padding-top: 5px;
+}
+
+#date {
+    height: 30px;
+    width: 650px;
+    background-color: rgb(138, 138, 138);
+    border: 0px solid;
+    color: rgb(159, 159, 159);
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 0;
+}
+
+#date:hover {
+    background-color: white;
+    border: 1px solid red;
+
+}
+
+.date {
+    padding-top: 20px;
+    color: rgb(81, 81, 81);
+}
+
+.inside-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name {
+    padding-top: 20px;
+    color: rgb(81, 81, 81);
+}
+
+.inside-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    height: 30px;
+    width: 650px;
+    background-color: rgb(138, 138, 138);
+    border: 0px solid;
+    color: rgb(159, 159, 159);
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 0;
+}
+
+#name:hover {
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+}
+
+#time {
+    height: 30px;
+    width: 650px;
+    background-color: rgb(138, 138, 138);
+    border: 0px solid;
+    color: rgb(159, 159, 159);
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 0;
+}
+
+.time {
+    padding-top: 20px;
+    color: rgb(81, 81, 81);
+}
+.inside-5{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+background:#111;
+color:#ccc;
+}
+
+
+.footer-container{
+display:flex;
+justify-content:space-evenly;
+padding:40px 20px;
+flex-wrap:wrap;
+}
+
+
+.footer-box{
+width:250px;
+margin:10px;
+}
+
+
+.footer-box h3{
+color:red;
+margin-bottom:15px;
+}
+
+
+.footer-box ul{
+list-style:none;
+}
+
+
+.footer-box ul li{
+margin-bottom:8px;
+}
+
+
+.footer-box ul li a{
+color:#ccc;
+text-decoration:none;
+}
+
+
+.footer-box ul li a:hover{
+color:red;
+}
+
+
+.footer-bottom{
+text-align:center;
+padding:15px;
+background:#000;
+font-size:14px;
+}
+.footer-box p{
+    font-size: 20px;
+}

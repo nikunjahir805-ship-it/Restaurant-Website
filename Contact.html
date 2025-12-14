@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Osteria Francescana</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:"Times New Roman", serif;
+        }
+
+        body{
+            background:#f5f5f5;
+        }
+
+        /* HEADER */
+        .header{
+            height:350px;
+            background:url('img3.jpg') center/cover no-repeat;
+            box-shadow: inset 0 0 150px rgba(0,0,0,0.85);
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-align:center;
+        }
+
+        .header span{
+            color:red;
+            font-size:24px;
+            font-weight:600;
+        }
+
+        .header h1{
+            font-size:70px;
+            margin-top:10px;
+        }
+
+        /* CONTACT SECTION */
+        .contact{
+            max-width:1100px;
+            margin:70px auto;
+            padding:0 20px;
+            display:flex;
+            gap:40px;
+            flex-wrap:wrap;
+        }
+
+        .contact-info{
+            flex:1;
+            background:white;
+            padding:35px;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .contact-info h2{
+            font-size:35px;
+            margin-bottom:15px;
+        }
+
+        .contact-info p{
+            color:#777;
+            margin-bottom:20px;
+            line-height:1.6;
+        }
+
+        .contact-info div{
+            margin-bottom:15px;
+            font-size:16px;
+        }
+
+        /* FORM */
+        .contact-form{
+            flex:1;
+            background:white;
+            padding:35px;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .contact-form h2{
+            font-size:35px;
+            margin-bottom:20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea{
+            width:100%;
+            padding:12px;
+            margin-bottom:15px;
+            border-radius:10px;
+            border:1px solid #ccc;
+            outline:none;
+            font-size:15px;
+        }
+
+        .contact-form textarea{
+            resize:none;
+            height:120px;
+        }
+
+        .contact-form button{
+            background:red;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:10px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        .contact-form button:hover{
+            background:#000;
+        }
+
+        /* MAP */
+        .map{
+            width:100%;
+            margin-top:60px;
+        }
+
+        iframe{
+            width:100%;
+            height:400px;
+            border:0;
+        }
+
+        /* FOOTER */
+        footer{
+            background:#111;
+            color:#ccc;
+            margin-top:60px;
+        }
+
+        .footer-bottom{
+            text-align:center;
+            padding:15px;
+            background:#000;
+            font-size:14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <span>Get In Touch</span>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>We’d love to hear from you. Reach out for reservations, events, or any inquiries.</p>
+            <div><strong>Address:</strong> Modena, Italy</div>
+            <div><strong>Phone:</strong> +39 0123 456789</div>
+            <div><strong>Email:</strong> info@osteriafrancescana.it</div>
+            <div><strong>Opening Hours:</strong><br>Mon – Sun: 11:00 AM – 11:00 PM</div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="map">
+        <iframe src="https://maps.google.com/maps?q=modena%20italy&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
+
+    <footer>
+        <div class="footer-bottom">© 2025 Osteria Francescana. All Rights Reserved.</div>
+    </footer>
+
+</body>
+</html>
